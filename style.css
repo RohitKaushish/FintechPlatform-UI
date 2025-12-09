@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{margin:0;padding:0;font-family:Poppins, sans-serif;box-sizing:border-box;}
+
+body{display:flex;background:#eef1f5;}
+
+.sidebar{
+  width:240px;background:#111;color:#fff;height:100vh;padding:25px 20px;
+}
+.sidebar h2{margin-bottom:30px;}
+.sidebar ul{list-style:none;}
+.sidebar li{padding:12px 0;cursor:pointer;opacity:.75;}
+.sidebar li.active,.sidebar li:hover{opacity:1;font-weight:600;}
+
+.container{flex:1;padding:30px;}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.add-money{background:#007bff;color:#fff;border:none;padding:10px 16px;border-radius:8px;cursor:pointer;}
+
+.balance-card{
+  background:rgba(255,255,255,.7);backdrop-filter:blur(10px);
+  padding:25px;border-radius:18px;
+}
+.balance-card h1{margin:5px 0 15px;}
+.actions button{
+  margin-right:10px;padding:8px 14px;border:none;border-radius:6px;
+  cursor:pointer;background:#111;color:#fff;
+}
+
+.stats{margin:30px 0;background:#fff;padding:20px;border-radius:15px;}
+.transactions{background:#fff;padding:20px;border-radius:15px;}
+.transactions li{padding:10px 0;border-bottom:1px solid #eee;}
+.in{color:green;font-weight:600;}
+.out{color:red;font-weight:600;}
+
+.profile{
+  background:#fff;
+  padding:20px;
+  border-radius:15px;
+  margin-top:20px;
+}
+.profile p{padding:5px 0;}
+
+.footer{
+  text-align:center;
+  margin-top:25px;
+  padding:12px;
+  color:#444;
+  font-size:14px;
+}
